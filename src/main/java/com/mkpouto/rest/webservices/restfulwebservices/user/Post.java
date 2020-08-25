@@ -39,4 +39,13 @@ public class Post {
     public void setUser(User user) {
         this.user = user;
     }
+
+    public Post(Integer id, String description, User user) {
+        this.id = id;
+        this.description = description;
+       // this.user_id = user_id;
+        this.user = user;
+    }
+
+    protected Post(){}
 }
